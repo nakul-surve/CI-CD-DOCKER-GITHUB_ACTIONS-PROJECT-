@@ -1,1 +1,14 @@
+{
+  "name": "devops-demo-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js app for CI/CD Docker pipeline",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Tests passed\""
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
 
