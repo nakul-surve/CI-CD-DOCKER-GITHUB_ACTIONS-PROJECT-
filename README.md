@@ -130,6 +130,13 @@ Then SSH back into the server to apply group changes.
 
 After this fix, the deployment step succeeded without errors.
 
+# Issue: Deployment failed after EC2 restart
+
+# Root cause: EC2 public IP changed
+
+# Fix: Updated GitHub Actions secret and later attached Elastic IP
+
+
 
 # Key Learnings
 
