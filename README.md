@@ -19,11 +19,9 @@
  # Architecture Overview
 
  Developer (Git Push)
-|
-v
+
 GitHub Repository
-|
-v
+
 GitHub Actions (CI)
 
 Checkout code
@@ -35,18 +33,15 @@ Run tests
 Build Docker image
 
 Push image to Docker Hub
-|
-v
-GitHub Actions (CD)
-SSH into EC2
+
+GitHub Actions (CD)SSH into EC2
 
 Pull latest Docker image
 
 Stop old container
 
 Run new container
-|
-v
+
 Application Live on EC2 (Port 80)
 
 
