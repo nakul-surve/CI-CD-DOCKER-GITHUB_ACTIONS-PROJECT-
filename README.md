@@ -1,8 +1,8 @@
 # CI-CD-DOCKER-GITHUB_ACTIONS-PROJECT 
  
- CI/CD Pipeline – Docker Only.
+ CI/CD Pipeline - Docker Only.
 
- This project demonstrates a real-world CI/CD pipeline using Docker only.
+ This project demonstrates a real world CI/CD pipeline using Docker only.
 
  The pipeline builds, tests, containerizes, and deploys a Node.js application automatically to an AWS EC2 server using GitHub Actions.
 
@@ -64,15 +64,19 @@ Application Live on EC2 (Port 80)
 
 
 # Repository Structure
-.
-├── app/
-│ ├── index.js
-│ ├── package.json
-│ └── package-lock.json
-├── Dockerfile
-├── deploy.sh
-├── .github/workflows/ci-cd.yml
-└── README.md
+ app/
+ index.js
+ package.json
+ package-lock.json
+ -------------------
+ Dockerfile
+ --------------------
+ deploy.sh
+ --------------------
+ .github/workflows/ci-cd.yml
+ -----------------------------
+ README.md
+ ----------
 
 Application Endpoints
 
@@ -84,11 +88,15 @@ Application Endpoints
 
 These secrets are configured in the GitHub repository settings:
 
-DOCKERHUB_USERNAME
-DOCKERHUB_TOKEN
-EC2_HOST
-EC2_USER
-EC2_SSH_KEY
+- DOCKERHUB_USERNAME
+
+- DOCKERHUB_TOKEN
+
+- EC2_HOST
+
+- EC2_USER
+
+- EC2_SSH_KEY
 
 
 # Real Issue Faced During Deployment
