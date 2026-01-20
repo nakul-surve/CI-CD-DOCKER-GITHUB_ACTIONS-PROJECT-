@@ -34,7 +34,9 @@ Build Docker image
 
 Push image to Docker Hub
 
-GitHub Actions (CD)SSH into EC2
+GitHub Actions (CD)
+
+SSH into EC2
 
 Pull latest Docker image
 
